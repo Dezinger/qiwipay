@@ -1,0 +1,39 @@
+{
+    "name": "dezinger/qiwipay",
+    "description": "",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "",
+        "forum": "",
+        "source": ""
+    },
+    "keywords": [
+        "qiwi",
+        "qiwipay"
+    ],
+    "authors": [
+        {
+            "name": "Aleksey Kazakov",
+            "email": "dezinger@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {        
+        "phpunit/phpunit": "~4.0",
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "dezinger\\qiwipay\\": "./src"
+        }
+    }
+}
